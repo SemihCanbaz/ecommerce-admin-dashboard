@@ -1,0 +1,234 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.app {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #2c3e50;
+  color: white;
+  height: 100vh;
+  padding: 20px;
+}
+
+.sidebar nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar nav ul li {
+  margin: 10px 0;
+}
+
+.sidebar nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Ana içerik bölgesi */
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+/* Başlık (header) */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+/* Buton stili */
+button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Kullanıcı listesi stil ayarları */
+.users-page {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.users-page h2 {
+  margin-top: 0;
+}
+
+.users-page ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.users-page ul li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.users-page ul li button {
+  background-color: #3498db;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+/* Siparişler sayfası stil ayarları */
+.order-list {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.order-list h2 {
+  margin-top: 0;
+}
+
+.order-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.order-list table th,
+.order-list table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.order-list table th {
+  background-color: #3498db;
+  color: white;
+}
+
+/* Ürünler sayfası stil ayarları */
+.products-page {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.products-page h2 {
+  margin-top: 0;
+}
+
+.products-page .product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.products-page .product-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: calc(33.333% - 20px);
+}
+
+.products-page .product-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.products-page .product-card h3 {
+  margin: 10px 0;
+}
+
+.products-page .product-card button {
+  background-color: #3498db;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+}
+
+/* Login sayfası stil ayarları */
+.login-page {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.login-page h2 {
+  margin-top: 0;
+}
+
+.login-page form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-page form label {
+  margin-bottom: 5px;
+}
+
+.login-page form input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.login-page form button {
+  background-color: #3498db;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+}
